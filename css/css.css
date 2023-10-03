@@ -1,0 +1,175 @@
+
+body{
+    background-position: center;
+    background-image:  url(../recurce/1.png);
+    font-size: 20px;
+}
+/*серый фон*/
+.div1{
+    background-color: grey;
+    background: rgba(128, 128, 128, 0.7);
+    width: 1550px;
+    height: 1200px;
+    position: absolute ;
+    top: 25px;
+    /* left: 50px; */
+}
+/*твич*/
+header{
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+/*левый борт*/
+.bord{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(255, 0, 0, 0.8);
+    width: 15%;
+    height: 65%;
+    position: absolute;
+    left: 14px;
+}
+
+/*правый борт*/
+.bord1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(255, 0, 0, 0.8);
+    width: 15%;
+    height: 65%;
+    position: absolute;
+    left: 84%;
+}
+
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgba(255, 0, 0, 0.8);
+    width: 91%;
+    height: 10%;
+    position: absolute;
+    top: 80%;
+    left: 4%;
+}
+
+.textf{
+    text-align: center;
+}
+
+/*центр*/
+section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* display: flex; */
+    background: rgb(255, 255, 255, 0.8);
+    width: 67%;
+    height: 65%;
+    position: absolute;
+    /* top: 23%; */
+    left: 16.5%;
+}
+
+/*Стиль поля для ввода*/
+.name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 5px;
+    border:0.5px solid grey;
+    margin: 7px;
+}
+
+/*Поля для ввода Ф и И*/
+.fio{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+/*отступы */
+
+/*Отступы в radio*/
+.gender input, .age input {
+    margin:5px 5px 5px 10px ;
+}
+
+/*Отступы в секции с вопросами по учебе*/
+.question{
+    margin-bottom:20px;
+}
+
+
+/*Стиль поля для ввода*/
+.boxToInput{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 5px;
+    border:0.5px solid grey;
+    margin: 7px;
+}
+
+/*Кнопки отмены и отправки*/
+.twoButtons{
+    /* display: flex; */
+    flex-direction: row-reverse;
+}
+
+/*Меню*/
+.menu{
+    margin: 50px;
+    position: relative;;
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.menuItem p{
+    padding:10px;
+    color:white;
+    text-decoration: none;
+}
+
+.menuItem p:hover{
+    padding:10px;
+    border:1px solid black;
+    text-decoration: none;
+}
+
+.menuItem p:visited{
+    color:white;
+    text-decoration: none;
+}
+
+/*Итоговая таблица*/
+table{
+    
+    border: 2px solid black;
+    flex:1;
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 10px;
+   margin-left: 100px;
+}
+
+/*Деление по теме вопросов*/
+.topRow{
+    background-color: rgb(180, 188, 143);
+    color:white;
+    font-size:14px;
+    font-family: 'Courier Prime', monospace;
+}
+
+/*Деление по вопросам*/
+.preTopRow td{   
+    border: 2px solid black;
+    font-size:14px;
+    font-family: 'Courier Prime', monospace;
+}
+
+td{
+    padding: 15px;
+    border: 0.5px solid black;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+

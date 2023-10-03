@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/css.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    </head>
+   
+    <body>
+        <div class="div1">
+             <header>
+      <img  style="margin-left: 240px;" width="67%" height="150px" src="../recurce/2.jpg">
+            </header> 
+            <section>
+                <script src="../html/function setResults(){.js"> </script>
+                <form method ="post" action = "javascript: setResults();">
+                
+                    <fieldset>
+                        <div class="fio">
+                        <input class="name" type="text" pattern="^[A-ZА-ЯЁ]{1}[a-zа-яё]+$" title="Имя должно содержать одну заглавную букву" placeholder="Имя" name = "firstName" id = "firstName" required>
+                        <input class="name" type="text" pattern="^[A-ZА-ЯЁ]{1}[a-zа-яё]+$" title="Фамилия должна содержать одну заглавную букву" placeholder="Фамилия" name = "secondName" id = "secondName" >
+                    </div>
+
+
+                    <span class = "boldText">Пол:</span>
+                    <span class = "gender"> 
+                        <input type="radio" name="gender" value = "Ж"> Женский
+                        <input type="radio" name="gender" value = "М">Мужской
+                    </span>
+                    <br> 
+                              
+                    <div class = "mail"> 
+                        <input class = "boxToInput" type = "email" placeholder= "E-mail" id = "mail">  
+                    </div>
+                    
+                    <div class = "tel"> 
+                        <input class = "boxToInput" type = "telephone" placeholder= "Телефон" id = "tel">  
+                    </div>
+
+                    <span class = "boldText">Возраст:</span>
+                    <span>
+                        <input class = "boxToInput" type = "date" min = 18 max = 70 step="1" id = "date">
+                    </span>
+                    
+                    <span class = "town">
+                    <select id ="town" class = "boxToInput" style = "margin-left: -5px; idpadding-left: 2px;" >
+                            <option  disabled selected>Ваш областной город</option>
+                            <option>Минск</option>
+                            <option>Брест</option>
+                            <option>Гомель</option>
+                            <option>Гродно</option>
+                            <option>Витебск</option>
+                           
+                        </select>
+                    </span>
+                    <br>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Телепередачи</legend>
+                            
+                                <div class = "question">
+                                    <p class = "boldText">Какой канал вы чаще всего смотрите?</p>
+                                    <input type = "radio" class = "question1" value = "TNT">TNT<br>
+                                    <input type = "radio" class = "question1" value ="STS">STS<br>
+                                    <input type = "radio" class = "question1" value = "TV3">TV3<br>
+                                    <input type = "radio" class = "question1" value = "Belarus 1">Belarus 1<br>
+                                    <input type = "radio" class = "question1" value = "TV1000">TV1000<br>
+                                    <input type = "radio" class = "question1" value = "Другое">Другое<br>
+                                     </div>    
+                                     
+                                     
+ 
+                                     <div class = "question">
+                                        <p class = "boldText">Какой жанр?</p>
+                                        <input type = "radio" class = "question2" value = "comedy">Комедия<br>
+                                        <input type = "radio" class = "question2" value ="news">Новости<br>
+                                        <input type = "radio" class = "question2" value = "fam">Семейные<br>
+                                        <input type = "radio" class = "question2" value = "imp">Импровизация<br>
+                                        <input type = "radio" class = "question2" value = "Другое">Другое<br>
+                                         </div>
+
+                                      
+
+                                         <div>
+                                            <input required type="checkbox" name = "acceptWithRules">Согласен на обработку данных
+                                        </div>
+              
+
+            </fieldset>
+
+                <div class = "twoButtons">
+                    <input type = "submit" class = "buttonSubmit">
+                    <input type ="reset" class = "buttonReset" name="reset">
+                </div>
+               
+                <br>
+                
+            </form>
+        </article>
+      
+        
+            </section>
+            <div class="bord">
+                <nav>
+                    <div class = "menu">
+                        <a class = "menuItem" href = "../html/index-1.html"><p>Главная</p></a>  <a class = "menuItem" href = "../html/html2.html"><p>Результаты</p></a>                   
+                    </div>
+                </nav>
+            </div>
+            <div class="bord1">
+            </div>
+            <footer>
+                <div class="textf">
+                г.Минск, пр-т Ленина д.20
+            </div>
+            </footer>
+
+        </div>
+    </body>
+</html>
